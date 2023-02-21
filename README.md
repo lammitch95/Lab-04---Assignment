@@ -1,6 +1,6 @@
 # Lab-04---Assignment
 
-Task 01) Run the following code:
+## Task 01) Run the following code:
 
 void countDown(int num)
 
@@ -20,11 +20,12 @@ void countDown(int num)
 
 }
 
-what is the output of this code?
+
+### what is the output of this code?
 
   It would keep printing "..." and a new line until it meets the if statement condition and then print "Blastoff!" with new line.
 
-- modify it so that it prints only the even numbers. 
+### - modify it so that it prints only the even numbers. 
   
   I modified the code in src file.
   Basically this....
@@ -43,12 +44,12 @@ what is the output of this code?
     }
   
 
-- what is the time complexity of this algorithm and why?
+### - what is the time complexity of this algorithm and why?
 
-I think the time complexity is still linear so Big O(n) evern with the modified changes. There is a constant iteration of n-2 until it reaches 0.
+I think the time complexity is still linear so Big O(n) even with the modified changes. There is a constant iteration of n-2 until it reaches 0.
 
 
-Task 02) Run the following code:
+## Task 02) Run the following code:
 
 int gcd(int x, int y) {
 
@@ -62,11 +63,11 @@ int gcd(int x, int y) {
 
 }
 
-what is the output of this code?
+### what is the output of this code?
 
   The output would just give the greatest common denominator between whatever the value of x and the value of y. So if x was 5 and y was 10 the output would be 5.
 
-- modify it to find the gcd using subtraction instead of %.
+### - modify it to find the gcd using subtraction instead of %.
 
  public static void gcd(int x, int y) {
       //modified gcd method using subtraction
@@ -82,7 +83,7 @@ what is the output of this code?
 
     }
     
- Task 03) Run the following code:
+## Task 03) Run the following code:
 
 
 int fib(int n)
@@ -103,17 +104,17 @@ int fib(int n)
 
 }
 
-what is the time complexity of this algorithm and why?
+### what is the time complexity of this algorithm and why?
 
 The time complexity is 0(2^n). Its exponential because of its recursive tree. With each level it call 2^ n calls in that level.
 
-#Homework
+# Homework
 
-please submit the solution to the following problems:
+## please submit the solution to the following problems:
 
 Note: All code is in src files
 
-Write a function that prints "Hello World" n times recursively.
+### Write a function that prints "Hello World" n times recursively.
 
 public static void hello(int n){
         if(n == 0){
@@ -125,7 +126,7 @@ public static void hello(int n){
     }
 
 
-Write a function that returns the sum of all numbers between n1 and n2 that are multiples of 7 using recursion.
+### Write a function that returns the sum of all numbers between n1 and n2 that are multiples of 7 using recursion.
 
 public static int sumNums(int n1, int n2){
       //sum of numbers that are mutliples of 7
@@ -149,7 +150,7 @@ public static int sumNums(int n1, int n2){
    I assume that the input for n1 is less than n2 which is how i made this algorithm.
        
 
-Write a function that implements the binary search algorithm recursively.
+### Write a function that implements the binary search algorithm recursively.
 
  public static void binarySearch(int[] arr,int left,int right, int target){
         
